@@ -1,5 +1,7 @@
 body{
     background-color: #E1FFFF;
+    justify-content: center;
+    display: inline;
 }
 
 header{
