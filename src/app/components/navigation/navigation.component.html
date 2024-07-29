@@ -1,0 +1,7 @@
+<div class="row mt-3 mb-3">
+    <nav class="nav justify-content-center nav-header flex-md-row flex-column">
+        <a *ngFor="let item of menuItems" [routerLink]="item.url" routerLinkActive="active" class="nav-link">
+            {{ item.name }}
+        </a>
+    </nav>
+</div>

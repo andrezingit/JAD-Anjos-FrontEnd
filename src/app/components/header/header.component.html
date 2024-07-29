@@ -1,0 +1,32 @@
+<!-- header.component.html -->
+<header class="mt-5">
+    <div class="container text-center">
+        <div class="row align-items-center flex-column flex-md-row">
+            <div class="col-12 col-md-4 mb-3 mb-md-0">
+                <img class="header-image-logo" src="{{logo}}" alt="Logo"/>  
+            </div>
+            <div class="col-12 col-md-4 mb-3 mb-md-0">
+                <div class="search">
+                    <input class="search-txt" type="text" name="" placeholder="O que você procura?">
+                    <a class="search-btn" href="#">
+                       <i class="fas fa-search"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 d-flex justify-content-around flex-md-row">
+                <div class="icon-text">
+                    <i class="fas fa-question"></i>
+                    <p class="d-none d-md-block"><a routerLink="/ajuda">Precisa de ajuda?</a></p>
+                </div>
+                <div class="icon-text">
+                    <i class="fas fa-user-circle"></i>
+                    <p class="d-none d-md-block">Minha conta</p>
+                </div>
+                <div class="icon-text">
+                    <i class="fas fa-cart-plus"></i>
+                    <p class="d-none d-md-block">Carrinho de compras</p> 
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
